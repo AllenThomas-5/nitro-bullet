@@ -1,0 +1,17 @@
+/**** Contact Form Css *****/
+
+.wpcf7 label {
+    color: black;
+    margin-bottom: 10px;
+}
+
+
+.screen-reader-response {
+    display: none;
+}
+
+.wpcf7-response-output.wpcf7-mail-sent-ok {
+	font-size: 15px;
+    padding: 10px;
+}
+

@@ -1,0 +1,192 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 70%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/*Grey Color Text*/
+
+p {
+	color: grey;
+}
+
+/* Navigation Branding*/
+
+.navbar-default .navbar-nav>li>a {
+	    color: #337ab7;
+}
+
+
+.navbar-default {
+	background-color: #e4f6fd;
+    border-color: #e7e7e7;
+}
+
+.navbar-brand {
+	    padding: 5px 20px;
+}
+
+/*Page Header Color*/
+
+h1.page-header {
+	color:#15aae1;
+}
+
+h2.page-header {
+	color:#15aae1;
+}
+
+h3.contact-header {
+	color:#15aae1;
+}
+
+
+/* Fa Icons Color*/
+
+.fa {
+	color: #48aae1;
+
+}
+/* breadcrumb*/
+.breadcrumb {
+	background-color:#e4f6fd;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+
+/*Core Value Panel Styles*/
+
+.service-heading {
+	    font-size: 25px;
+		color: #457e9b;
+	    /* font-weight: 900; */
+}
+
+h4.media-heading {
+	margin-top:16px;
+	    color: #457e9b;
+}
+
+/*Panel Equal Height*/
+
+.equal, .equal > div[class*='col-'] {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+   
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 10px 0;
+    padding: 50px 0;
+    background-color: #e4f6fd;
+}
+
+.footer-nav {
+	text-align:center;
+	list-style:none;
+}
+.footer-nav li {
+	display:inline;
+	padding:0px 10px;
+}
+
+
+
+/* Second Title */
+.announcement-section {
+	padding: 20px;
+	margin:10px;
+	
+}
+
+.announcement-section h1 {
+	color:#457e9b;
+}
+
+
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
